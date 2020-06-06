@@ -8,6 +8,10 @@
     "start": "nodemon --exec npm run babel-node -- ./src/index.js",
     "build": "babel src -d dist"
   },
+  "repository": {
+    "url": "https://github.com/nibgat/nibgat-react-native-navigation.git",
+    "type": "git"
+  },
   "author": "nibgat",
   "license": "ISC",
   "keywords": [
