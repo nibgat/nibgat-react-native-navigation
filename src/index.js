@@ -4,9 +4,8 @@ import React, {
     useEffect
 } from 'react';
 import {
-    StyleSheet,
-    View,
-    Text
+    SafeAreaView,
+    StyleSheet
 } from 'react-native';
 import {
     getNavState,
@@ -60,5 +59,5 @@ const styles = StyleSheet.create({
     }
 });
 export const getNavParams = getNavState;
-export const setNavParams = getNavState;
+export const setNavParams = setNavState;
 export default NavigationContainer;
